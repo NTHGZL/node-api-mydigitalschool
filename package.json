@@ -4,11 +4,17 @@
   "description": "Ma première API - MyDigitalSchool",
   "main": "server.js",
   "scripts": {
+    "start":"nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "api"
   ],
   "author": "Nathan GONZALEZ",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "global": "^4.4.0",
+    "nodemon": "^2.0.6"
+  }
 }
